@@ -1,0 +1,20 @@
+<div class="home">
+  <form  #testForm="ngForm" ngNativeValidate>
+    <table>
+    <tr class="name">
+      <td>Your Name </td>
+      <td><input  placeholder="enter your name" [(ngModel)]="username" name="username" required/><br></td> 
+    </tr>
+    <tr class="name">
+        <td>Tell about yourself</td>
+       <td><textarea rows="5" cols="40" [(ngModel)]="area" name="area"></textarea><br></td> 
+    </tr>
+    <tr class="name">
+      <td></td>
+       <td>
+          <button class="btn btn-outline-secondary" type="button"  (click)="btnClick();">Next</button>
+       </td>
+    </tr>
+  </table>
+</form>
+</div>

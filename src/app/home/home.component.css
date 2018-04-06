@@ -1,0 +1,12 @@
+.home{
+    width: 500px;
+    Text-align: center;
+    margin: 0 auto;
+    border: 1px ;
+    margin-top: 2px;
+    font-family: 'Times New Roman';
+    
+}
+.name{
+    text-align: left;
+}
